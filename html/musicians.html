@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="css\base.css">
+<link rel="stylesheet" type="text/css" href="css\musicians.css">
+<head>
+    <title>FIMC</title>
+</head>
+<body>
+<header>
+    <a href="index.html">
+        <img src="images/logo.jpg" alt="FIMC logo" id="logo">
+    </a>
+    <nav>
+        <ul class="menuheader">
+            <li><a href="index.html" class="headmenu">Home</a></li>
+            <li><a href="about.html" class="headmenu">Sobre</a></li>
+            <li><a href="festival.html" class="headmenu">Festival</a></li>
+            <li><a href="musicians.html" class="headmenu">Musicos</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <section id="lineup">
+        <h2>Musicos</h2>
+        <div id="musicoslista">
+            <dl>
+                <img src="{% static 'images/Pedro.jpg' %}" alt="Pedro logo" id="musicosMain">
+                <dd>Pedro</dd>
+                <img src="{% static 'images/mc_EN.jpg' %}" alt="Afonso logo" id="musicosMain">
+                <dd>Afonso</dd>
+                <img src="{% static 'images/mc_PT.jpg' %}" alt="Maria logo" id="musicosMain">
+                <dd>Maria</dd>
+            </dl>
+        </div>
+    </section>
+</main>
+<footer>
+    <p>Copyright 2023 &copy;FIMC</p>
+</footer>
+</body>
+</html>

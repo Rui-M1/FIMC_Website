@@ -1,0 +1,45 @@
+#logo {
+    height: 75px;
+    width: 100px;
+    border: 1px solid;
+}
+
+body {
+    background-color: white;
+    color: #4a5f65;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: rgba(211, 227, 211, 0.49);
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid rgba(74, 95, 101, 0.5);
+    text-decoration: none;
+}
+.menuheader{
+  position: absolute; right:0;
+}
+
+
+.headmenu{
+    border: 1px solid #4a5f65;
+    text-decoration: none;
+    display: flex;
+    text-align: center;
+    position: left;
+}
+
+.headmenu:hover{
+    background-color: yellow;
+    color: #fff;
+    text-decoration: none;
+}
+
+footer {
+    background-color: rgba(220, 234, 220, 0.49);
+    justify-content: center;
+    text-align: center;
+    border-top: 2px solid rgba(74, 95, 101, 0.5);
+}
