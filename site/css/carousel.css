@@ -1,0 +1,56 @@
+.carousel-container {
+  position: relative;
+  height: 33vh;
+  overflow: hidden;
+}
+
+.carousel-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.carousel-image.active {
+  opacity: 1;
+}
+
+.carousel-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
+  cursor: pointer;
+  outline: none;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.carousel-arrow:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.carousel-arrow.left {
+  left: 10px;
+  background-image: url("./../media/arrow_left.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.carousel-arrow.right {
+  right: 10px;
+  background-image: url("./../media/arrow_right.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.carousel-arrow:hover,
+#carrosselmain:hover .carousel-arrow {
+  opacity: 1;
+}
