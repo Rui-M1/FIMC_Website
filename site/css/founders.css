@@ -1,0 +1,37 @@
+#mugshot {
+    height: 210px;
+    width: 200px;
+    padding-right: 30px;
+    padding-left: 30px;
+    left: 0;
+}
+
+#middle {
+    border-bottom: 1px solid rgba(74, 95, 101, 0.5);
+    margin: 20px 75px 20px 75px;
+}
+
+#why, #founders {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+}
+
+#why h3 {
+    text-align: center;
+}
+
+#founders h3 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#Leonie, #Pedro {
+    display: flex;
+    flex-direction: row;
+}
+#who{
+    display: flex;
+    flex-direction: column;
+}

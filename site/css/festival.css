@@ -1,0 +1,22 @@
+
+#mainfestival h2 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#mainfestival{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+}
+
+#program, #location {
+    display: flex;
+    flex-direction: column;
+}
+
+#programa2022:hover {
+height: 100%;
+width: 100%;
+}

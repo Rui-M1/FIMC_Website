@@ -1,47 +1,52 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" type="text/css" href=".\..\css\base.css">
+<link rel="stylesheet" type="text/css" href=".\..\css\home.css">
 <link rel="stylesheet" type="text/css" href=".\..\css\carousel.css">
+<script src=".\..\js\carousel.js"></script> 
+
 
 <head>
     <title>FIMC</title>
 </head>
-<body>
+
     <header>
         <a href="home.html">
-            <img src="./../media/logos/logo_verde.jpg" alt="FIMC logo" id="logo">
+            <img src="./../media/logos/logo.jpg" alt="FIMC logo" id="logo">
         </a>
         <nav id="mainmenuheader">
             <dl class="menuheader">
-                <dt><a href="home.html" class="headmenu">Home</a></dt>
-                <dt><a href="about.html" class="headmenu">Sobre</a></dt>
-                <dt><a href="festival.html" class="headmenu">Festival</a></dt>
-                <dt><a href="musicians.html" class="headmenu">Musicos</a></dt>
-                <dt><a href="contacts.html" class="headmenu">Contactos</a></dt>
+                <dt><a href="home.html" class="headmenuH">Home</a></dt>
+                <dt><a href="about.html" class="headmenuA">About</a></dt>
+                <dt><a href="festival.html" class="headmenuF">Festival</a></dt>
+                <dt><a href="musicians.html" class="headmenuM">Musicians</a></dt>
+                <dt><a href="contacts.html" class="headmenuC">Contacts</a></dt>
                 <!-- <dt><a class="menusmall">&vellip;</a></dt> -->
             </dl>
         </nav>
     </header>
-<main>
-    <section id="carrosselmain">
-        <section id="carrosselmain">   
-            <div class="carousel-container">
-                <!-- Images will be dynamically added here -->
+    <main>
+        <section id="carrosselmain">
+            <div class="slideshow-container" id="slideshow-container">
+              <!-- Next and previous buttons -->
+              <a class="prev">&#10094;</a>
+              <a class="next">&#10095;</a>
             </div>
-            <button class="carousel-arrow left"></button>
-            <button class="carousel-arrow right"></button>
+          </section>
+
+        <section id="novidades">
+            <h3>News</h3>
+            <p class="festival-text1">International Chamber Music Festival 2023</p>
+            <p class="festival-text">27th August • 7th September</p>
+            <p class="festival-text1">Lisbon, Portugal</p>
+            <br /><p class="festival-text1">More information on: <a href="https://www.instagram.com/festivalintmusicacamara/">Instagram - International Chamber Music Festival </a></p>
+
         </section>
-        
-    <p>Carroussel de imagens, coming soon!</p>
-    </section>
-    <section id="novidades">
-        <h2>News</h2>
-        This part will be updated as soon has we have any news!
-    </section>
-</main>
-<footer>
-    <p>Copyright 2023 &copy;FIMC</p>
-</footer>
+    </main>
+    <footer>
+        <p>Copyright &copy;FIMC</p>
+    </footer>
 </body>
+
 </html>
