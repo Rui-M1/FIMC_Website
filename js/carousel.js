@@ -1,13 +1,13 @@
 let slideIndex = 0;
 const images = [
-  './../media/carousel/IMG_1.JPG',
-  './../media/carousel/IMG_2.JPG',
-  './../media/carousel/IMG_3.JPG',
-  './../media/carousel/IMG_4.JPG',
-  './../media/carousel/IMG_5.JPG',
-  './../media/carousel/IMG_6.JPG',
-  './../media/carousel/IMG_7.JPG',
-  './../media/carousel/IMG_8.JPG',
+  './media/carousel/IMG_1.JPG',
+  './media/carousel/IMG_2.JPG',
+  './media/carousel/IMG_3.JPG',
+  './media/carousel/IMG_4.JPG',
+  './media/carousel/IMG_5.JPG',
+  './media/carousel/IMG_6.JPG',
+  './media/carousel/IMG_7.JPG',
+  './media/carousel/IMG_8.JPG',
 ];
 
 document.addEventListener('DOMContentLoaded', function() {
