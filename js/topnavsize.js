@@ -1,12 +1,39 @@
-const dropdownIcon = document.querySelector('.dropdown-icon');
-const menuHeader = document.querySelector('.menuheader');
+const navbar = document.getElementById("navbar");
+const navbarToggle = navbar.querySelector(".navbar-toggle");
 
-dropdownIcon.addEventListener('click', function () {
-  menuHeader.classList.toggle('show');
-});
+function openMobileNavbar() {
+  navbar.classList.add("opened");
+  navbarToggle.setAttribute("aria-expanded", "true");
+}
 
-window.addEventListener('resize', function () {
-  if (window.innerWidth >= 600) {
-    menuHeader.classList.remove('show');
+function closeMobileNavbar() {
+  navbar.classList.remove("opened");
+  navbarToggle.setAttribute("aria-expanded", "false");
+}
+
+navbarToggle.addEventListener("click", () => {
+  if (navbar.classList.contains("opened")) {
+    closeMobileNavbar();
+  } else {
+    openMobileNavbar();
   }
 });
+
+const navbarMenu = navbar.querySelector("#navbar-menu");
+const navbarLinksContainer = navbar.querySelector(".navbar-links");
+
+navbarLinksContainer.addEventListener("click", (clickEvent) => {
+  clickEvent.stopPropagation();
+});
+
+navbarMenu.addEventListener("click", closeMobileNavbar);
+
+document
+  .getElementById("options")
+  .querySelectorAll("input[name='navtype']")
+  .forEach((option) => {
+    option.addEventListener("change", (e) => {
+      const navType = e.target.id.split("-").join(" ");
+      navbarMenu.classList = navType;
+    });
+  });
