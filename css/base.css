@@ -13,6 +13,8 @@ header {
   padding-left: 20px;
   padding-right: 20px;
   border-bottom: 2px solid rgba(74, 95, 101, 0.5);
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: 600;
 
 }
 
@@ -53,7 +55,8 @@ padding: 50px 30px 45px;}
 
 body {
   color: #4a5f65;
-  font-family: Arial, sans-serif;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: 400;  
   display: flex;
   flex-direction: column;
   text-align: center;
