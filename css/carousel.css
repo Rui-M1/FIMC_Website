@@ -1,7 +1,6 @@
 /* Slideshow container */
 .slideshow-container {
-  display: none;
-  /*display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   max-width: 100%;
