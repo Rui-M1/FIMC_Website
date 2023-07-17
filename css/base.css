@@ -64,7 +64,7 @@ body {
 }
 
 footer {
-  position: fixed;
+  position: relative;
   bottom: 0;
   width: 100%;
   border-top: 1px solid rgba(74, 95, 101, 0.5);
